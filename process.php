@@ -1,5 +1,8 @@
 <?php
 
+// increase execution time
+set_time_limit(0);
+
 //Retrieve query parameters
 $maxImages = $_GET['images'];
 $imgNames  = explode(",",$_GET['imgNames']);
